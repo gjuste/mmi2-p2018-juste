@@ -4,6 +4,8 @@
 	align-items: center;
 	padding-bottom: 90px;
 
+	@include size(100vw);
+
 	.dates__group ul {
 		padding-inline-start: 4vw;
 	}
