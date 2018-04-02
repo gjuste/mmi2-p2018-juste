@@ -14,21 +14,22 @@
 }
 
 .footer__facebook {
+	margin: 4px 3vw 4px 3vw;
+
 	@include medium {
-		margin: 0px 3vw 0px 3vw;
+		margin: 4px 0px 4px 0px;
 	}
 
-	i {
-		font-size: 3rem;
+	a {
+		font-size: 1.4rem;
+		margin: 0px 8px 0px 8px;
 	}
 }
 
 .footer__contact {
-	@include medium {
-		margin: 0px 3vw 0px 3vw;
-	}
+	margin: 0px 3vw 0px 3vw;
 
-	p {
+	@include medium {
 		margin: 0px;
 	}
 }
