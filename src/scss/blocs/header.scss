@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   background: green;
 }
@@ -6,4 +7,51 @@ header {
 	display: flex;
 	justify-content: center;
 	background-image: url("/img/logo.jpg");
+=======
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top : 0px;
+	left: 0px;
+	background-color: black;
+
+	@include size(100vw);
+
+	@include medium {
+		position: static;
+		flex-direction: column;
+	}
+}
+
+.header__logo {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	a {
+		margin: 0px 3vw 0px 3vw;
+	}
+
+	img {
+		@include size(100px);
+	}
+
+	h2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@include medium {
+			display: none;
+		}
+	}
+}
+
+.header__link {
+	a {
+		margin: 0px 3vw 0px 3vw;
+	}
+>>>>>>> a565834bc0c48ca8fa8f3aa55059bd6cd11d1134
 }

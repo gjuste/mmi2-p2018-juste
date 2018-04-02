@@ -1,0 +1,15 @@
+@mixin size($width, $height: auto) {
+  width: $width;
+  height: $height;
+}
+
+@mixin medium {
+  @media (max-width: 760px) {
+    @content;
+  }
+}
+
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
