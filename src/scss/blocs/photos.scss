@@ -1,0 +1,23 @@
+.photos {
+	@include size(100vw);
+
+	.photos__container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		@include size(100vw);
+
+		img {
+			margin: 5px;
+
+			@include size(48vw);
+
+			@include medium {
+				margin: 3px 0px 3px 0px;
+
+				@include size(100vw);
+			}
+		}
+	}
+}

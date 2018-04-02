@@ -7,11 +7,13 @@
 	left: 0px;
 	background-color: black;
 
-	@include size(100vw);
+	@include size(100vw, 75px);
 
 	@include medium {
 		position: static;
 		flex-direction: column;
+
+		@include size(100vw);
 	}
 }
 

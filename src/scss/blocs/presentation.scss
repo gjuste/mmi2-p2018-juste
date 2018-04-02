@@ -27,10 +27,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-right: 30px;
 
 	@include size(55vw);
 
 	@include medium {
+		padding-right: 0px;
+		
 		@include size(100vw);
 	}
 }

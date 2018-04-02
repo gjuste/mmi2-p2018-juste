@@ -2,6 +2,8 @@
 @import 'blocs/header';
 @import 'blocs/footer';
 @import 'blocs/presentation';
+@import 'blocs/photos';
+@import 'blocs/dates';
 
 * {
 	box-sizing: border-box;
@@ -16,6 +18,10 @@ html {
 body {
 	margin: 0px;
 	overflow: auto;
+
+	> div {
+		padding-bottom: 40px;
+	}
 }
 
 a {
