@@ -6,7 +6,7 @@
   position: fixed;
   bottom: 0px;
 
-  @include size(100vw);
+  @include size(100vw, 40px);
 
   @include medium {
   	justify-content: space-around;
@@ -14,10 +14,10 @@
 }
 
 .footer__facebook {
-	margin: 4px 3vw 4px 3vw;
+	margin: 0px 3vw 0px 3vw;
 
 	@include medium {
-		margin: 4px 0px 4px 0px;
+		margin: 0px;
 	}
 
 	a {

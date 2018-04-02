@@ -1,6 +1,7 @@
 @import 'layout';
 @import 'blocs/header';
 @import 'blocs/footer';
+@import 'blocs/presentation';
 
 * {
 	box-sizing: border-box;
@@ -14,6 +15,7 @@ html {
 
 body {
 	margin: 0px;
+	overflow: auto;
 }
 
 a {

@@ -3,7 +3,7 @@
 	justify-content: space-around;
 	align-items: center;
 	position: fixed;
-	top : 0px;
+	top: 0px;
 	left: 0px;
 	background-color: black;
 
@@ -40,6 +40,8 @@
 }
 
 .header__link {
+	margin: 4px 0px 4px 0px;
+
 	a {
 		margin: 0px 3vw 0px 3vw;
 	}
