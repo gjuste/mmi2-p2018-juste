@@ -1,11 +1,12 @@
-$blackBackground = #141414;
-$headerMargin = 2px 10px 2px 10px;
-$siteWidth = 100vw;
-$siteHeight = 100vh;
-
 @mixin size($width, $height: auto) {
   width: $width;
   height: $height;
+}
+
+@mixin medium {
+  @media (max-width: 760px) {
+    @content;
+  }
 }
 
 @font-face {

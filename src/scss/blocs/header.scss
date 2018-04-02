@@ -5,26 +5,41 @@
 	position: fixed;
 	top : 0px;
 	left: 0px;
-	@include size($siteWidth);
+	background-color: black;
 
-	.header__logo {
-		display: flex;
-		justify-content: center;
-		text-align: center;
+	@include size(100vw);
 
-		img {
-			@include size(100px);
-			margin: $headerMargin;
-		}
+	@include medium {
+		flex-direction: column;
+	}
+}
 
-		h2 {
-			margin: $headerMargin;
-		}
+.header__logo {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+	a {
+		margin: 0px 3vw 0px 3vw;
 	}
 
-	.header__link {
-		a {
-			margin: $headerMargin;
+	img {
+		@include size(100px);
+	}
+
+	h2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@include medium {
+			display: none;
 		}
+	}
+}
+
+.header__link {
+	a {
+		margin: 0px 3vw 0px 3vw;
 	}
 }
