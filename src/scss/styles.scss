@@ -12,15 +12,11 @@ html {
 	background-color: #141414;
 }
 
+body {
+	margin: 0px;
+}
+
 a {
 	text-decoration: none;
 	color: white;
-}
-
-h1 {
-  color: brown;
-
-  &:hover {
-    color: green;
-  }
 }

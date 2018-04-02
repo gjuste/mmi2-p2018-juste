@@ -10,6 +10,7 @@
 	@include size(100vw);
 
 	@include medium {
+		position: static;
 		flex-direction: column;
 	}
 }
