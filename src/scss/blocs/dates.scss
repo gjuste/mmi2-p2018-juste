@@ -1,0 +1,10 @@
+.dates {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 90px;
+
+	.dates__group ul {
+		padding-inline-start: 4vw;
+	}
+}
